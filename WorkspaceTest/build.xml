@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="XCode Test Ant Builder" default="debugbuild" basedir="..">
+	<target name="debugbuild">
+		<echo message="Building debug build of Workspace Test"/>
+			<exec executable="/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild" os="Mac OS X">
+				<arg value="-workspace"/>
+				<arg value="WorkspaceMasterTest.xcworkspace"/>
+				<arg value="-scheme"/>
+				<arg value="WorkspaceTest"/>
+				<arg value="build"/>
+			</exec>
+	</target> 
+</project>
