@@ -15,29 +15,29 @@
 		C8E2CD09169CADF800A6D6B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E2CD08169CADF800A6D6B5 /* AppDelegate.m */; };
 		C8E2CD0C169CADF800A6D6B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E2CD0B169CADF800A6D6B5 /* ViewController.m */; };
 		C8E2CD0F169CADF800A6D6B5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8E2CD0D169CADF800A6D6B5 /* ViewController.xib */; };
-		C8E2CD55169CAED100A6D6B5 /* libTestStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E2CD50169CAE7200A6D6B5 /* libTestStaticLibrary.a */; };
+		C8E2CDC8169CD13500A6D6B5 /* libTestStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E2CDC3169CD12400A6D6B5 /* libTestStaticLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C8E2CD4F169CAE7200A6D6B5 /* PBXContainerItemProxy */ = {
+		C8E2CDC2169CD12400A6D6B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8E2CD4A169CAE7100A6D6B5 /* TestStaticLibrary.xcodeproj */;
+			containerPortal = C8E2CDBD169CD12300A6D6B5 /* TestStaticLibrary.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = C8E2CD20169CAE7000A6D6B5;
+			remoteGlobalIDString = C8E2CD93169CD12300A6D6B5;
 			remoteInfo = TestStaticLibrary;
 		};
-		C8E2CD51169CAE7200A6D6B5 /* PBXContainerItemProxy */ = {
+		C8E2CDC4169CD12400A6D6B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8E2CD4A169CAE7100A6D6B5 /* TestStaticLibrary.xcodeproj */;
+			containerPortal = C8E2CDBD169CD12300A6D6B5 /* TestStaticLibrary.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = C8E2CD30169CAE7100A6D6B5;
+			remoteGlobalIDString = C8E2CDA3169CD12300A6D6B5;
 			remoteInfo = TestStaticLibraryTests;
 		};
-		C8E2CD53169CAEC000A6D6B5 /* PBXContainerItemProxy */ = {
+		C8E2CDC6169CD12E00A6D6B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8E2CD4A169CAE7100A6D6B5 /* TestStaticLibrary.xcodeproj */;
+			containerPortal = C8E2CDBD169CD12300A6D6B5 /* TestStaticLibrary.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = C8E2CD1F169CAE7000A6D6B5;
+			remoteGlobalIDString = C8E2CD92169CD12300A6D6B5;
 			remoteInfo = TestStaticLibrary;
 		};
 /* End PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		C8E2CD0A169CADF800A6D6B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C8E2CD0B169CADF800A6D6B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C8E2CD0E169CADF800A6D6B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		C8E2CD4A169CAE7100A6D6B5 /* TestStaticLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestStaticLibrary.xcodeproj; path = TestStaticLibrary/TestStaticLibrary.xcodeproj; sourceTree = "<group>"; };
+		C8E2CDBD169CD12300A6D6B5 /* TestStaticLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestStaticLibrary.xcodeproj; path = TestStaticLibrary/TestStaticLibrary.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8E2CD55169CAED100A6D6B5 /* libTestStaticLibrary.a in Frameworks */,
+				C8E2CDC8169CD13500A6D6B5 /* libTestStaticLibrary.a in Frameworks */,
 				C8E2CCF9169CADF800A6D6B5 /* UIKit.framework in Frameworks */,
 				C8E2CCFB169CADF800A6D6B5 /* Foundation.framework in Frameworks */,
 				C8E2CCFD169CADF800A6D6B5 /* CoreGraphics.framework in Frameworks */,
@@ -77,7 +77,7 @@
 		C8E2CCE9169CADF700A6D6B5 = {
 			isa = PBXGroup;
 			children = (
-				C8E2CD4A169CAE7100A6D6B5 /* TestStaticLibrary.xcodeproj */,
+				C8E2CDBD169CD12300A6D6B5 /* TestStaticLibrary.xcodeproj */,
 				C8E2CCFE169CADF800A6D6B5 /* WorkspaceTest */,
 				C8E2CCF7169CADF800A6D6B5 /* Frameworks */,
 				C8E2CCF5169CADF800A6D6B5 /* Products */,
@@ -126,11 +126,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C8E2CD4B169CAE7100A6D6B5 /* Products */ = {
+		C8E2CDBE169CD12300A6D6B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8E2CD50169CAE7200A6D6B5 /* libTestStaticLibrary.a */,
-				C8E2CD52169CAE7200A6D6B5 /* TestStaticLibraryTests.octest */,
+				C8E2CDC3169CD12400A6D6B5 /* libTestStaticLibrary.a */,
+				C8E2CDC5169CD12400A6D6B5 /* TestStaticLibraryTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C8E2CD54169CAEC000A6D6B5 /* PBXTargetDependency */,
+				C8E2CDC7169CD12E00A6D6B5 /* PBXTargetDependency */,
 			);
 			name = WorkspaceTest;
 			productName = WorkspaceTest;
@@ -176,8 +176,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C8E2CD4B169CAE7100A6D6B5 /* Products */;
-					ProjectRef = C8E2CD4A169CAE7100A6D6B5 /* TestStaticLibrary.xcodeproj */;
+					ProductGroup = C8E2CDBE169CD12300A6D6B5 /* Products */;
+					ProjectRef = C8E2CDBD169CD12300A6D6B5 /* TestStaticLibrary.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -188,18 +188,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		C8E2CD50169CAE7200A6D6B5 /* libTestStaticLibrary.a */ = {
+		C8E2CDC3169CD12400A6D6B5 /* libTestStaticLibrary.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTestStaticLibrary.a;
-			remoteRef = C8E2CD4F169CAE7200A6D6B5 /* PBXContainerItemProxy */;
+			remoteRef = C8E2CDC2169CD12400A6D6B5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C8E2CD52169CAE7200A6D6B5 /* TestStaticLibraryTests.octest */ = {
+		C8E2CDC5169CD12400A6D6B5 /* TestStaticLibraryTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = TestStaticLibraryTests.octest;
-			remoteRef = C8E2CD51169CAE7200A6D6B5 /* PBXContainerItemProxy */;
+			remoteRef = C8E2CDC4169CD12400A6D6B5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -230,10 +230,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C8E2CD54169CAEC000A6D6B5 /* PBXTargetDependency */ = {
+		C8E2CDC7169CD12E00A6D6B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TestStaticLibrary;
-			targetProxy = C8E2CD53169CAEC000A6D6B5 /* PBXContainerItemProxy */;
+			targetProxy = C8E2CDC6169CD12E00A6D6B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,13 +307,14 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WorkspaceTest/WorkspaceTest-Prefix.pch";
-				HEADER_SEARCH_PATHS = "/Users/mnethery/Desktop/iPhoneDev/Apps/WorkspaceTest/TestStaticLibrary/**";
+				HEADER_SEARCH_PATHS = /Users/mnethery/Desktop/iPhoneDev/Apps/AutomationTest/WorkspaceTest/TestStaticLibrary;
 				INFOPLIST_FILE = "WorkspaceTest/WorkspaceTest-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/mnethery/Desktop/iPhoneDev/Apps/AutomationTest/WorkspaceTest/TestStaticLibrary/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -323,13 +324,14 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WorkspaceTest/WorkspaceTest-Prefix.pch";
-				HEADER_SEARCH_PATHS = "/Users/mnethery/Desktop/iPhoneDev/Apps/WorkspaceTest/TestStaticLibrary/**";
+				HEADER_SEARCH_PATHS = /Users/mnethery/Desktop/iPhoneDev/Apps/AutomationTest/WorkspaceTest/TestStaticLibrary;
 				INFOPLIST_FILE = "WorkspaceTest/WorkspaceTest-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/mnethery/Desktop/iPhoneDev/Apps/AutomationTest/WorkspaceTest/TestStaticLibrary/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

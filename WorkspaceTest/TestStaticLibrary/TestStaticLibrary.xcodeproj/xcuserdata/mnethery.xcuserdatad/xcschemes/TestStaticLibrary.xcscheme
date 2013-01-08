@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C8E2CD1F169CAE7000A6D6B5"
+               BlueprintIdentifier = "C8E2CD92169CD12300A6D6B5"
                BuildableName = "libTestStaticLibrary.a"
                BlueprintName = "TestStaticLibrary"
                ReferencedContainer = "container:TestStaticLibrary.xcodeproj">
@@ -31,7 +31,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C8E2CD2F169CAE7100A6D6B5"
+               BlueprintIdentifier = "C8E2CDA2169CD12300A6D6B5"
                BuildableName = "TestStaticLibraryTests.octest"
                BlueprintName = "TestStaticLibraryTests"
                ReferencedContainer = "container:TestStaticLibrary.xcodeproj">
